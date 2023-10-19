@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>UAS Automata</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <div class="title-section container">
+      <!-- <img
+        src="https://i1.wp.com/mpb.fkip.unri.ac.id/wp-content/uploads/2016/09/LOGO-UR-TERBARU-1016x1024.png?ssl=1"
+        alt="logo unri"
+        class="logo-unri"
+      /> -->
+      <h1>SEARCH ENGINE</h1>
+      <p>Muhammad Rizki Dalfi (2107113405)</p>
+    </div>
+    
+
+    <div class="alloff">
+        <div class="input-section container">
+            <div class="input-box">
+              <label for="character-input">
+                Karakter
+                <input type="text" maxlength="1" id="character-input" autocomplete="off">
+              </label>
+            </div>
+            <div class="input-box">
+              <p>Kata dasar</p>
+              <select name="word-input" id="word-input">
+                <option>-- pilih kata --</option>
+              </select>
+            </div>
+            <div class="input-box">
+              <p>Kalimat</p>
+              <select name="sentence-input" id="sentence-input">
+                <option>-- pilih kalimat --</option>
+              </select>
+            </div>
+            <button id="btn">Search</button>
+          </div>
+      
+      
+          <div class="output-section container">
+            <h2>Informasi</h2>
+            <hr>
+            
+            <div class="output-information hide">
+              <h2 class="information-title" id="information-title">Title</h2>
+              <p class="information-desc" id="information-desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe ipsa repudiandae architecto pariatur sapiente obcaecati tenetur culpa, fugit veniam illo.</p>
+              <div class="card">
+                <h3>Gambar</h3>
+                <img src="https://i2.wp.com/gdm.id/wp-content/uploads/2022/07/ayam-bangkok-jantan.jpg" id="information-image">
+              </div>
+              <div class="card">
+                <h3>Video</h3>
+                <iframe src="https://www.youtube.com/embed/B12KV1qABKQ" title="YouTube video player" frameborder="0" id="information-video"></iframe>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <script src="data_fix.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
